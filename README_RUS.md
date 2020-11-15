@@ -4,22 +4,22 @@
 
 [English README.md](README.md)
 
-#### 1. Простая установка SimpleOPDS (используем простую БД sqlite3)
+#### 1. Простая установка SimpleOPDS (используем БД postgresql)
 
 1.1 Установка проекта  
 Загрузить архив с проектом можно с сайта www.sopds.ru, 
 либо из github.com следующей командой:
 
-	git clone https://github.com/mitshel/sopds.git
+	git clone https://github.com/nidjan/sopds.git
 
 1.2 Зависимости.  
 - Требуется Python не ниже версии 3.4
-- Django 1.10
-- Pillow 2.9.0
-- apscheduler 3.3.0
-- django-picklefield
+- Django 2.1.4
+- Pillow
+- apscheduler
+- django-picklefield 2.1.1
 - lxml
-- python-telegram-bot 10
+- python-telegram-bot
 
 Для работы проекта необходимо установить указанные  зависимости: 
 
